@@ -1,0 +1,329 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+/* Mobile & tablet */
+@media (max-width: 1023px) {
+    .no-display-mobile-tablet {
+        display: none !important;
+    }
+
+    .header .header-menu .header-menu-container .left .menu-respon {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .wrap .wrap-banner {
+        height: unset;
+    }
+
+    .wrap .wrap-banner img {
+        width: 100%;
+        height: unset;
+    }
+
+    
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .no-display-tablet {
+        display: none;
+    }
+
+    /* header top */
+    .header .header-top {
+        height: 6rem;
+    }
+
+    .header .header-top .header-top-container {
+        padding: 0 2rem;
+    }
+
+    .header .header-top .header-top-container .header-top-left {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: start;
+    }
+
+    .header .header-top .header-top-container .header-top-left .left-item:last-child {
+        padding-left: 0;
+        padding-top: .2rem;
+    }
+
+    /* header center */
+
+    .header .header-center {
+        background-position-x: 40%;
+    }
+
+    .header .header-center .header-center-container {
+        padding: 0 2rem;
+    }
+
+    .header .header-center .header-center-container .header-center-ad {
+        padding-left: .4rem;
+    }
+
+    .header .header-center .header-center-container .header-center-ad .ad-text-1 {
+        font-size: 2rem;
+    }
+
+    .header .header-center .header-center-container .header-center-ad .ad-text-2 {
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+
+
+    /* header menu */
+    .header .header-menu {
+        padding: 0 2rem;
+    }
+
+    /* wrap */
+    /* wrap banner */
+
+    /* wrap content */
+    .wrap .wrap-content .wrap-content-container .content-left {
+        padding: 0 2rem;
+    }
+
+    .wrap .wrap-content .wrap-content-container .content-left .content .col:nth-child(3) {
+        margin-top: 3rem;
+    }
+
+    .wrap .wrap-content .wrap-content-container .content-left .content .content-item .content-item-detail .detail-price {
+        text-align: center;
+    }
+
+    .wrap .wrap-content .wrap-content-container .content-right {
+        margin-top: 3rem;
+        padding: 0 2rem;
+    }
+
+    .wrap .wrap-content .wrap-content-container .content-right .content-right-ad {
+        height: 60rem;
+    }
+    
+    .wrap .wrap-content .wrap-content-container .content-right .content-right__go-kitchen .item-list .item-link .item-link-detail .name {
+        padding-top: .4rem;
+    }
+
+    /* footer */
+
+    .footer .footer-top {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+    }
+
+    .footer .footer-top .footer-top-container .content-list {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: start;
+    }
+
+    .footer .footer-bottom {
+        height: auto;
+    }
+
+    .footer .footer-bottom .footer-bottom-container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        padding: 2rem;
+    }
+
+    .footer .footer-bottom .footer-bottom-container .footer-bottom-item:last-child {
+        margin-top: 1.5rem;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .no-display-mobile {
+        display: none;
+    }
+
+    /* header top */
+    .header .header-top {
+        height: auto;
+    }
+
+    .header .header-top .header-top-container {
+        padding: 2rem 1rem;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        padding-bottom: 1.5rem;
+    }
+
+    .header .header-top .header-top-container .header-top-left {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: start;
+    }
+
+    .header .header-top .header-top-container .header-top-left .left-item:last-child {
+        padding-left: 0;
+        padding-top: .2rem;
+    }
+
+    .header .header-top .header-top-container .header-top-right {
+        margin-top: 1.3rem;
+    }
+
+    /* header center */
+
+    .header .header-center {
+        background-image: none;
+        background-color: #FBF8F3;
+    }
+
+    .header .header-center .header-center-container {
+        padding: 0 1rem;
+    }
+
+    .header .header-center .header-center-container .header-center-ad {
+        padding-left: .4rem;
+    }
+
+    .header .header-center .header-center-container .header-center-ad .ad-text-1 {
+        font-size: 2rem;
+    }
+
+    .header .header-center .header-center-container .header-center-ad .ad-text-2 {
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+
+    .model-menu-respon.show .model-container {
+        width: 100%;
+    }
+
+
+    /* header menu */
+    .header .header-menu .header-menu-container {
+        padding: 0 1rem;
+    }
+
+    .header .header-menu .header-menu-container .right .right-search {
+        width: 18rem;
+    }
+
+
+
+    /* wrap */
+    /* wrap banner */
+    /* wrap content */
+    .wrap .wrap-content .wrap-content-container .content-left {
+        padding: 0 1rem;
+    }
+
+    .wrap .wrap-content .wrap-content-container .content-left .content .col:nth-child(2) {
+        margin-top: 3rem;
+    }
+
+    .wrap .wrap-content .wrap-content-container .content-left .content .col:nth-child(3) {
+        margin-top: 3rem;
+    }
+
+    .wrap .wrap-content .wrap-content-container .content-right {
+        padding: 0 1rem;
+        margin: 3rem;
+    }
+
+
+    /* footer */
+
+    .footer .footer-top {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+    }
+
+    .footer .footer-top .footer-top-container .content-list {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: start;
+    }
+
+    .footer .footer-top .footer-top-container .content-list .content-item .title {
+        line-height: calc(100% + .5rem);
+    }
+
+    .footer .footer-bottom {
+        height: auto;
+    }
+
+    .footer .footer-bottom .footer-bottom-container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        padding: 2rem;
+    }
+
+    .footer .footer-bottom .footer-bottom-container .footer-bottom-item:last-child {
+        margin-top: 2rem;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .footer .footer-bottom .footer-bottom-container .footer-bottom-item .design-by {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin-top: 1.5rem;
+    }
+
+    .footer .footer-bottom .footer-bottom-container .footer-bottom-item .design-by::before {
+        top: 0;
+        width: 2rem;
+        height: 1px;
+        left: unset;
+        bottom: calc(100% + .6rem);
+        top: unset;
+    }
+    .footer .footer-bottom .footer-bottom-container .footer-bottom-item .text {
+        text-align: center;
+    }
+}
